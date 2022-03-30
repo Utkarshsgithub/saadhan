@@ -1,0 +1,5 @@
+.inclined {
+    background-color: #ececec;
+    transform: translateY(-50px) skewY(-2.5deg);
+    min-height: 100px;
+}

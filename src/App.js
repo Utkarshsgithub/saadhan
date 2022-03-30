@@ -1,6 +1,14 @@
+import React from 'react';
+import Hero from './components/hero/Hero';
+import Inclined from './components/Inclined/Inclined';
+
 function App() {
   return (
-    <h1>App.js</h1>
+    <>
+    <Hero />
+    <Inclined />
+    </>
+
   );
 }
 
