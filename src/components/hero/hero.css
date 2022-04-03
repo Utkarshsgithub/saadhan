@@ -1,4 +1,34 @@
 .hero {
-    background-color: #ececec;
     min-height: 80vh;
+    display: flex;
+}
+
+.hero__main {
+  width: 50%;
+  height: 80vh;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff90e8;
+  border-right: 2px solid var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+  flex-direction: column;
+}
+
+.hero__graphic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 80vh;
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+.hero__heading {
+  font-size: 4rem;
+}
+
+.hero__paragraph {
+  font-size: 1.5rem;
 }

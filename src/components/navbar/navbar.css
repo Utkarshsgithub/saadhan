@@ -1,24 +1,41 @@
 .navbar {
     display: flex;
-    padding: 50px;
+    padding: 0 25px;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 2px solid var(--secondary-color);
+    border-top: 2px solid var(--secondary-color);
 }
 
 .navbar ul {
     display: flex;
     list-style: none;
+    margin: 25px 0;
 }
 
 .navbar ul li {
     margin: 0 25px;
     cursor: pointer;
+    position: relative;
 }
 
-.navbar h1 {
-    font-weight: 800 !important;
-    background: linear-gradient(to bottom, #ee2d7c, #ff652f);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+.navbar ul li:after {
+    content: "";
+    position: absolute;
+    background: #000;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: 0px;
+    transition: 0.2s ease;
+}
+
+.navbar ul li:hover:after {
+    width: 100%;
+}
+
+.logo {
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 3rem;
 }

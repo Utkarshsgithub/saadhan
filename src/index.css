@@ -10,13 +10,20 @@ html {
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #fff;
+  --secondary-color: #000;
+  --tirtary-color: #ececec;
+}
+
 /* ::selection {
 
 
 } */
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Segoe UI';
+  background-color: var(--primary-color);
 }
 
 a:active{

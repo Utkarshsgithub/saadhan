@@ -6,10 +6,10 @@ export default function Navbar() {
     <nav className="navbar">
       <h1 className='logo'>Saadhan</h1>
       <ul>
-        <li>lorem</li>
-        <li>ipsum</li>
-        <li>dolor</li>
-        <li>sit</li>
+        <li>Lorem</li>
+        <li>Ipsum</li>
+        <li>Dolor</li>
+        <li>Sit</li>
         <li style={{'marginRight':'0'}}>emmet</li>
       </ul>
     </nav>
